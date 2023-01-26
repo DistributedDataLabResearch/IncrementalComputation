@@ -7,7 +7,7 @@ Papers, Surveys, and Related Materials for Incremental Computation
 
 ### Event Processing
 
-### SQL Query Optimizers
+### Streaming SQL Query Optimizers
 
 ### To Be Classified...
 1. Live Tables and Delta Live Tables
