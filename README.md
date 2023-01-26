@@ -6,6 +6,7 @@ Papers, Surveys, and Related Materials for Incremental Computation
 ### Dataflow System
 
 ### Event Processing
+1. Recent Advancements in Event Processing [[Survey](https://dl.acm.org/doi/pdf/10.1145/3170432)]
 
 ### Streaming SQL Query Optimizers
 
