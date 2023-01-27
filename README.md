@@ -20,4 +20,3 @@ Papers, Surveys, and Related Materials for Incremental Computation
   > A __streaming live table or view__ processes data that has been __added only__ since the last pipeline update. Streaming tables and views are stateful; if the defining query changes, new data will be processed based on the new query and existing data is not recomputed.
 2. Dynamic Tables in Flink
 * Dynamic Tables: Intro and Definitions [[Link](https://nightlies.apache.org/flink/flink-docs-master/docs/dev/table/concepts/dynamic_tables/)]
-* 
