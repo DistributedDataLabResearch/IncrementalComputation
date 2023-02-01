@@ -4,7 +4,7 @@ Papers, Surveys, and Related Materials for Incremental Computation
 (Below is just a temporal classification. Please feel free to modify.)
 
 ### Dataflow System 
-1. Naiad: A Timely Dataflow System [[Paper](https://dl.acm.org/doi/pdf/10.1145/2517349.2522738)] [[GitHub](https://github.com/frankmcsherry/timely-dataflow)][[Connectred Papers](https://www.connectedpapers.com/main/98ca08bdb4092d59ef6efcedf8003239f89cf58f/Naiad%3A-a-timely-dataflow-system/graph)]
+1. Naiad: A Timely Dataflow System [[Paper](https://dl.acm.org/doi/pdf/10.1145/2517349.2522738)] [[GitHub](https://github.com/frankmcsherry/timely-dataflow)][[Connected Papers](https://www.connectedpapers.com/main/98ca08bdb4092d59ef6efcedf8003239f89cf58f/Naiad%3A-a-timely-dataflow-system/graph)]
 2. Differential dataflow [[Paper](http://michaelisard.com/pubs/differentialdataflow.pdf)] [[GitHub](https://github.com/TimelyDataflow/differential-dataflow)]
 3. Declarative Dataflow [[GitHub](https://github.com/comnik/declarative-dataflow)]
 4. It's About Time: An Introduction to Timely Dataflow | Clockworks [[YouTube List](https://www.youtube.com/watch?v=ZN7nOwJTSZ0&list=PLqs87sfbAM0EESOXJN0rP_hRHu3hRANcb&index=1)]
