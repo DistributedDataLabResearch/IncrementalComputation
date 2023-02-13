@@ -53,10 +53,8 @@ Papers, Surveys, and Related Materials for Incremental Computation
 3. Databricks: Delta Live Table [[blog](https://blogs.perficient.com/2022/07/11/top-5-take-aways-from-databricks-data-ai-summit-2022/)][[youtube](https://www.youtube.com/watch?v=zo6K6g2jfqY)]
 > Announcing __Enzyme__, a new optimization layer designed specifically to speed up the process of doing ETL – Transforming data to prepare it for downstream analysis is a prerequisite for most other workloads on the Databricks platform. While SQL and Data frames make it relatively easy for users to express their transformations, the input data constantly changes. This requires re-computation of the tables produced by ETL. Enzyme is a a new optimization layer for ETL. Enzyme efficiently keeps up to date a materialization of the results of a given query stored in a Delta table. It uses a cost model to choose between various techniques, including techniques used in traditional materialized views, delta-to-delta streaming, and manual ETL patterns commonly used by data engineers.
 4. Shared Arrangements: practical inter-query sharing for streaming dataflows (VLDB' 20) [[paper](https://people.csail.mit.edu/malte/pub/drafts/2019-kpg.pdf)] 👉(Liz, Sherry)
-5. Noria: dynamic, partially-stateful data-flow for high-performance web applications (OSDI' 18) [[paper](https://www.usenix.org/conference/osdi18/presentation/gjengset)] [[github](https://github.com/mit-pdos/noria)] 👉 (Rui, Sherry)
+5. Noria: dynamic, partially-stateful data-flow for high-performance web applications (OSDI' 18) [[paper](https://www.usenix.org/conference/osdi18/presentation/gjengset)] [[github](https://github.com/mit-pdos/noria)] [[presentation](https://www.youtube.com/watch?v=kVv9Pik6QGY)] [[discussion](https://corecursive.com/030-rethinking-databases-with-jon-gjengset/)]👉 (Rui, Sherry)
 
-
-## 
 
 
 ## Streaming SQL Query Optimizers
