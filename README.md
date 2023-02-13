@@ -45,6 +45,7 @@ Papers, Surveys, and Related Materials for Incremental Computation
 1. incremental recomputation of active relational expressions (TKDE'91) [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=91063)]
 2. Incremental Maintenance of Views with Duplicates (SIGMOD' 95) [[paper](https://homepages.inf.ed.ac.uk/libkin/papers/sigmod95.pdf)]
 3. Incremental Maintenance for Analytics [[website](https://fdbresearch.github.io/ivm.html)]
+4. Mathematical principles in RisingWave (Delta Join) [[website](https://www.risingwave-labs.com/blog/shared-indexes-and-joins-in-streaming-databases/)]
 
 ## 🔥 States Management
 1. Delta Joins and Late Materialization: Understand how to optimize joins with indexes and late materialization [[blog](https://materialize.com/blog/delta-joins/)]
