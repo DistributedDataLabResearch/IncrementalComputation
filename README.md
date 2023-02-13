@@ -36,7 +36,8 @@ Papers, Surveys, and Related Materials for Incremental Computation
 
 1. The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing [[paper](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/43864.pdf)] [[zhihu](https://zhuanlan.zhihu.com/p/54739130)]
 2. Structured Streaming: A Declarative API for Real-Time Applications in Apache Spark [[paper](https://dl.acm.org/doi/pdf/10.1145/3183713.3190664)] [[jira](https://issues.apache.org/jira/browse/SPARK-20928)] [[doc](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)] [[zhihu](https://zhuanlan.zhihu.com/p/51883927)] 
-3. 
+> Structured Streaming automatically incrementalizes queries on static datasets expressed through Spark’s SQL and DataFrame APIs [8], meaning that users typically only need to understand Spark’s batch APIs to write a streaming query. Event time concepts are especially easy to express and understand in this model.
+ 
 
 ### Temporal Query Model
 1. Trill: A High-Performance Incremental Query Processor for Diverse Analytics (VLDB'14) [[paper](http://www.vldb.org/pvldb/vol8/p401-chandramouli.pdf)]
@@ -56,7 +57,9 @@ Papers, Surveys, and Related Materials for Incremental Computation
 4. Shared Arrangements: practical inter-query sharing for streaming dataflows (VLDB' 20) [[paper](https://people.csail.mit.edu/malte/pub/drafts/2019-kpg.pdf)] 👉(Liz, Sherry)
 5. Noria: dynamic, partially-stateful data-flow for high-performance web applications (OSDI' 18) [[paper](https://www.usenix.org/conference/osdi18/presentation/gjengset)] [[github](https://github.com/mit-pdos/noria)] [[presentation](https://www.youtube.com/watch?v=kVv9Pik6QGY)] [[discussion](https://corecursive.com/030-rethinking-databases-with-jon-gjengset/)]👉 (Rui, Sherry)
 
-
+## 🔥🔥 Pipeline management and Serverless
+1. Multiple-Query Optimization [[paper](http://daslab.seas.harvard.edu/reading-group/papers/mqo.pdf)] 👉 (Liz)
+2. Resource Allocation in Serverless Query Processing [[paper](https://arxiv.org/pdf/2208.09519.pdf)]
 
 ## Streaming SQL Query Optimizers
 1. A catalog of stream processing optimizations [[paper](https://dl.acm.org/doi/10.1145/2528412)]
@@ -74,6 +77,7 @@ Papers, Surveys, and Related Materials for Incremental Computation
 * Dynamic Tables: Intro and Definitions [[Link](https://nightlies.apache.org/flink/flink-docs-master/docs/dev/table/concepts/dynamic_tables/)]
 3. Flink [[zhihu](https://zhuanlan.zhihu.com/p/61661884)]
 4. LINVIEW: Incremental View Maintenance for Complex Analytical Queries (SIGMOD'14) [[paper](https://dl.acm.org/doi/pdf/10.1145/2588555.2610519)]
+> Linear Algebra
 5. How to Do Incremental Processing Correctly [[blog](https://www.alibabacloud.com/blog/how-to-do-incremental-processing-correctly_599159)]
 6. Google Dataflow Incremental Table [[doc](https://cloud.google.com/dataform/docs/incremental-tables#process_a_subset_of_rows_in_an_incremental_table)]
 7. Spark stateful streaming processing is stuck in StateStoreSave stage! [[blog](https://xinyeah.github.io/Spark-stateful-streaming-processing-is-stuck-in-StateStoreSave-stage/)]
