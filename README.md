@@ -102,7 +102,7 @@ Papers, Surveys, and Related Materials for Incremental Computation
 <!-- 1. Markov logic networks (Machine Learning 2006) [[PDF](https://link.springer.com/content/pdf/10.1007/s10994-006-5833-1.pdf)]
 2. Relational Dependency Networks (JMLR 2007) [[PDF](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1125&context=cs_faculty_pubs)] -->
 1. Structured Machine Learning: The Next Ten Years (Machine Learning 2008) [[PDF](https://link.springer.com/article/10.1007/s10994-008-5079-1)]
-2. Tabular Data: Deep Learning is not all you need [[PDF](https://arxiv.org/pdf/2106.03253.pdf?trk=public_post_comment-text)]
+2. Tabular Data: Deep Learning is not all you need (Information Fusion 2022) [[PDF](https://arxiv.org/pdf/2106.03253.pdf?trk=public_post_comment-text)]
 
 #### 💥 **Part 2.3** w/ Incremental Computation on Structured Data
 - I do not find papers that focus on this specific topic. I think this part is more related to incremental computation/learning since structured data can always be preprocessed (how to retain the internal relations among the data is crucial) and then fed into the traditional machine learning models.
