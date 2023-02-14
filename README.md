@@ -123,7 +123,7 @@ Papers, Surveys, and Related Materials for Incremental Computation
 4. Deep Neural Networks and Tabular Data: A survey (TNNLS 2022) [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9998482)]
 
 #### 💥 **Part 3.3** w/ Incremental Computation on Structed Data
-- I do not find papers that focus on this specific topic for DL either. I think the reasons are similar to that listed in Part 2.3.
+- I do not find papers that focus on this specific topic for DL either. I think the reasons are similar to that listed in **Part 2.3**.
 
 ### **Part 4** Tools or Implementations
 1. Machine learning and deep learning on tabular data [[ArcGIS](https://developers.arcgis.com/python/guide/ml-and-dl-on-tabular-data/)]
