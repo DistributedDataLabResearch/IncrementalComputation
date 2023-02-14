@@ -81,3 +81,51 @@ Papers, Surveys, and Related Materials for Incremental Computation
 5. How to Do Incremental Processing Correctly [[blog](https://www.alibabacloud.com/blog/how-to-do-incremental-processing-correctly_599159)]
 6. Google Dataflow Incremental Table [[doc](https://cloud.google.com/dataform/docs/incremental-tables#process_a_subset_of_rows_in_an_incremental_table)]
 7. Spark stateful streaming processing is stuck in StateStoreSave stage! [[blog](https://xinyeah.github.io/Spark-stateful-streaming-processing-is-stuck-in-StateStoreSave-stage/)]
+
+## Machine/Deep Learning with Incremental Computation on Structured Data
+
+### **Part 1** Paper List / Preliminary
+1. Best-Incremental-Learning [[GitHub Repo](https://github.com/Vision-Intelligence-and-Robots-Group/Best-Incremental-Learning)]
+2. Awesome-Incremental-Learning [[GitHub Repo](https://github.com/xialeiliu/Awesome-Incremental-Learning)]
+3. Continual learning: A comparative study on how to defy forgetting in classification tasks. [[PDF](https://www.researchgate.net/publication/335908453_Continual_learning_A_comparative_study_on_how_to_defy_forgetting_in_classification_tasks)]
+
+### **Part 2** Traditional Machine Learning (e.g., Decision Tree, SVM)
+#### **Part 2.1** w/ Incremental Computation
+1. An Introduction to Online Machine Learning [[Blog](https://medium.com/danny-butvinik/https-medium-com-dannybutvinik-online-machine-learning-842b1e999880)]
+2. Incremental online machine learing [[Blog](https://medium.com/analytics-vidhya/incremental-online-learning-9868861db880)]
+3. Incremental on-line learning: A review and comparison of state of the art algorithms (Neurocomputing 2018) [[PDF](https://pdf.sciencedirectassets.com/271597/1-s2.0-S0925231217X00489/1-s2.0-S0925231217315928/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHUaCXVzLWVhc3QtMSJHMEUCIQCM1%2FOHhUHvUX5d2jey%2B6AFBW1nJdfLYzl43g5fI4%2B%2BOwIgS3wwXxWyI0ToJwaXhd%2Bf%2BwBXdFDWBI5uXIxv%2Fn%2FqkVAq1QQI%2Fv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDP1qwRWYzyDyxxKUIyqpBHFfrFl86OqF%2Ff2UWaTdJOPpCJD3wQacl0HZmK6TXYE%2BiH%2Bx2eLwGozSFO1BqHeImX%2Bx3V8Jo9fdZyf8%2B%2BP7Vtelq4y88ov6%2FEX5Rqq5Dnhc6UIqhOamF6WRV3FG9Dky5QZf9frMs%2FCGo3gT3EMD%2Faw%2FH8ibinfxh3SaFo%2B7yzPhmR6eWFgnCRBfEYRTod0A%2BcmRTzZDegcTlPa5J%2FTDE6MiM%2BWal8Cs7pKsQ%2FhfXktSLA8dsUX0WKkGKU1b%2FGulONo%2BW7%2FkOwPBpuk9S6yq%2FukJo1z1iMyDhPJdeLE5f6BjAQ3gxzkovQNjbFLJPBv9EjGyFEsID8wJ8H9dP0cruFsGvP4emkAJcRyGcc%2BTdBPWKW04za64qj54hvUN%2BFhJpWQVNSKNXD%2F61DOEr90Fzl4NDg%2Fs06W45VL3FydOsoR%2F3v6poWYD%2FDTX6lzQP3d0pyW1BC%2Fvxp54bfsHzsMnAIDUfvwtr4geKnBCRbRNzfnpsUTNKRJHif5rArnz2iASfH3kh1pbqzrdpDarc%2Fi%2B6aqvrElSLz6iLUfFvslxjGQVmQUrRhn13b1zTga6lmHsI6oSKUIuoFxLrGxu615dyhBRYXRWkyIhJA5U9AJMvVWQYKVlSpcJvCMELPBXrYPTAW6spRwgv6rXm%2B2MjVTBTD4nWA%2BkqRhXCPWOHbjG6AayiZNWwSPKrxImpNFDUCMHIjln%2FVordllUYS8D%2Bwfo2d4%2BOiuMMgY%2FuEgw4pisnwY6qQFg2IflojxhX7i7VljaDReh%2FQ9KH8DC3XqG2PsDJzVeT6IhbMK%2Fgx4veSWnCKyAx5GGBaM9zJqvvJbP%2FgQ5BBnjZMhH6MFyGk7KbG3JLn20RYp5ZIG874kS25yJAko7vQAS9fY0hX3ARkzskhBbYm0nUO3dxm%2BY7roSt0GCXYN%2BzDQPk440rnpW0Ve4WM9242xbEwTbKtMr3QunorkPqVnrTqd4hPu1%2F4cB&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230214T052635Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY34HXUUS6%2F20230214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b297510a625eff899f4f49cc358ce0f518d46643f9e0235ba8b655595bee72c2&hash=efd0e5071ec1b39e6fb0fd9db76d8dd74ce5c845d87a6261e469f6b66bdd4aa1&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0925231217315928&tid=spdf-7f665975-f6ba-46bd-b083-b532de9a51ab&sid=453bbbb493a3c5477c2b4fa480c88d6b394bgxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=060e585f575d595607&rr=799363c8dd170990&cc=hk)]
+4. Progress In Incremental Machine Learning (NIPS 2002 Workshop) [[PDF](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=289ba69f2f9d6993bdb512d9784f03918a82baf2)]
+5. Incremental Support Vector Learning: Analysis, Implementation and Applications (JMLR 2006)[[PDF](https://www.jmlr.org/papers/volume7/laskov06a/laskov06a.pdf)]
+6. Mondrian Forest: Efficient Online Random Forests (NIPS 2014) [[PDF](https://proceedings.neurips.cc/paper/2014/file/d1dc3a8270a6f9394f88847d7f0050cf-Paper.pdf)]
+
+#### **Part 2.2** w/ Structured Data
+<!-- 1. Markov logic networks (Machine Learning 2006) [[PDF](https://link.springer.com/content/pdf/10.1007/s10994-006-5833-1.pdf)]
+2. Relational Dependency Networks (JMLR 2007) [[PDF](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1125&context=cs_faculty_pubs)] -->
+1. Structured Machine Learning: The Next Ten Years (Machine Learning 2008) [[PDF](https://link.springer.com/article/10.1007/s10994-008-5079-1)]
+2. Tabular Data: Deep Learning is not all you need [[PDF](https://arxiv.org/pdf/2106.03253.pdf?trk=public_post_comment-text)]
+
+#### 💥 **Part 2.3** w/ Incremental Computation on Structured Data
+- I do not find papers that focus on this specific topic. I think this part is more related to incremental computation/learning since structured data can always be preprocessed (how to retain the internal relations among the data is crucial) and then fed into the traditional machine learning models.
+
+### **Part 3** Deep Learning (e.g., DNNs)
+#### **Part 3.1** w/ Incremental Computation
+1. Learn++: An Incremental Learning Algorithm for Supervised Neural Networks (Transactions on System 2001) [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=983933)]
+2. End-to-End Incremental Learning (ECCV 2018) [[PDF](https://openaccess.thecvf.com/content_ECCV_2018/papers/Francisco_M._Castro_End-to-End_Incremental_Learning_ECCV_2018_paper.pdf)]
+3. Rectification-based Knowledge Retention for Continual Learning (CVPR 2021) [[PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Singh_Rectification-Based_Knowledge_Retention_for_Continual_Learning_CVPR_2021_paper.pdf)]
+4. DER: Dynamically Expandable Representation for Class Incremental Learning (CVPR 2021) [[PDF](https://scholar.google.com/scholar_url?url=http://openaccess.thecvf.com/content/CVPR2021/papers/Yan_DER_Dynamically_Expandable_Representation_for_Class_Incremental_Learning_CVPR_2021_paper.pdf&hl=en&sa=T&oi=gsb-gga&ct=res&cd=0&d=15603649429564073640&ei=gCfrY8bGC4jQmQHDkoS4BA&scisig=AAGBfm1QbvL-VEh-sOE1K5MlnQOEdWsWFA)]
+
+#### **Part 3.2** w/ Structured Data
+1. How to use deep learning to deal with structured data [[Blog](https://www.jiqizhixin.com/articles/2017-12-04-7)]
+2. AI Should not Leave Structured Data Behind [[Blog](https://towardsdatascience.com/ai-should-not-leave-structured-data-behind-33474f9cd07a)]
+3. Deep Learning with Structured Data [[Book](https://livebook.manning.com/book/deep-learning-with-structured-data/chapter-1/29)]
+4. Revisiting Deep Learning Models for Tabular Data (NIPS 2021) [[PDF](https://proceedings.neurips.cc/paper/2021/hash/9d86d83f925f2149e9edb0ac3b49229c-Abstract.html)]
+5. TabNet: Attentive Interpretable Tabular Learning (AAAI 2021) [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/16826)]
+4. Deep Neural Networks and Tabular Data: A survey (TNNLS 2022) [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9998482)]
+
+#### 💥 **Part 3.3** w/ Incremental Computation on Structed Data
+- I do not find papers that focus on this specific topic for DL either. I think the reasons are similar to that listed in Part 2.3.
+
+### **Part 4** Tools or Implementations
+1. Machine learning and deep learning on tabular data [[ArcGIS](https://developers.arcgis.com/python/guide/ml-and-dl-on-tabular-data/)]
+2. Incremental learning [[sklearn](https://scikit-learn.org/0.15/modules/scaling_strategies.html#incremental-learning)]
+2. Machine Learning with Tabular Data [[Google Cloud](https://cloud.google.com/vertex-ai/docs/tabular-data/tabular101)]
