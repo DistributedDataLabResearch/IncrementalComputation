@@ -51,9 +51,10 @@ Papers, Surveys, and Related Materials for Incremental Computation
 ### PostgreSQL IVM (incremental view maintenance) [[wiki](https://wiki.postgresql.org/wiki/Incremental_View_Maintenance#Restrictions_on_view_definition)]
 1. pgcon 2020: The Way for Updating Materialized Views Rapidly [[pdf](https://www.pgcon.org/events/pgcon_2020/sessions/session/56/slides/47/pgcon2020_nagata_the_way_to_update_materialized_views_rapidly.pdf)]
 2. pgcon eu 2018: Implementing Incremental View Maintenance on PostgreSQL [[pdf](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2195/slides/144/Implementing%20Incremental%20View%20Maintenance%20on%20PostgreSQL%20.pdf)]
-3. IVM discussion [[kick-off](https://www.postgresql.org/message-id/20181227215726.4d166b4874f8983a641123f5@sraoss.co.jp)]
-4. Utilizing IDs to Accelerate Incremental View Maintenance (SIGMOD'15) [[paper](https://dl.acm.org/doi/10.1145/2723372.2750546)]
-5. Maintaining views incrementally (SIGMOD'93) [[paper](https://dl.acm.org/doi/10.1145/170035.170066)]
+3. IVM discussion [[kick-off](https://www.postgresql.org/message-id/20181227215726.4d166b4874f8983a641123f5@sraoss.co.jp)] [[proposal in JP](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=191222&item_no=1&page_id=13&block_id=8)]
+4. IVM testing on TPC-H and TPC-DS [[from Russia](https://postgrespro.ru/list/thread-id/2419111)]
+5. Utilizing IDs to Accelerate Incremental View Maintenance (SIGMOD'15) [[paper](https://dl.acm.org/doi/10.1145/2723372.2750546)]
+6. Maintaining views incrementally (SIGMOD'93) [[paper](https://dl.acm.org/doi/10.1145/170035.170066)]
 
 
 ## 🔥 States Management
