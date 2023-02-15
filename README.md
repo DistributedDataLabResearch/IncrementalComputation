@@ -35,7 +35,7 @@ Papers, Surveys, and Related Materials for Incremental Computation
   Its rapid adoption of the __Dataflow__/Beam programming model, which put it in the position of being the most semantically capable fully open source streaming system on   the planet at the time.
 
 1. The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing [[paper](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/43864.pdf)] [[zhihu](https://zhuanlan.zhihu.com/p/54739130)]
-2. Structured Streaming: A Declarative API for Real-Time Applications in Apache Spark [[paper](https://dl.acm.org/doi/pdf/10.1145/3183713.3190664)] [[jira](https://issues.apache.org/jira/browse/SPARK-20928)] [[doc](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)] [[zhihu](https://zhuanlan.zhihu.com/p/51883927)] 
+2. Structured Streaming: A Declarative API for Real-Time Applications in Apache Spark [[paper](https://dl.acm.org/doi/pdf/10.1145/3183713.3190664)] [[jira](https://issues.apache.org/jira/browse/SPARK-20928)] [[doc](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)] [[zhihu](https://zhuanlan.zhihu.com/p/51883927)] [[blog](https://developer.aliyun.com/article/690913) compare with Spark Streaming]
 > Structured Streaming automatically incrementalizes queries on static datasets expressed through Spark’s SQL and DataFrame APIs [8], meaning that users typically only need to understand Spark’s batch APIs to write a streaming query. Event time concepts are especially easy to express and understand in this model.
  
 
@@ -47,6 +47,11 @@ Papers, Surveys, and Related Materials for Incremental Computation
 2. Incremental Maintenance of Views with Duplicates (SIGMOD' 95) [[paper](https://homepages.inf.ed.ac.uk/libkin/papers/sigmod95.pdf)]
 3. Incremental Maintenance for Analytics [[website](https://fdbresearch.github.io/ivm.html)]
 4. Mathematical principles in RisingWave (Delta Join) [[website](https://www.risingwave-labs.com/blog/shared-indexes-and-joins-in-streaming-databases/)] [[website 2](https://www.skyzh.dev/posts/articles/2022-05-29-shared-state-in-risingwave/)]
+
+### PostgreSQL IVM (incremental view maintenance) [[wiki](https://wiki.postgresql.org/wiki/Incremental_View_Maintenance#Restrictions_on_view_definition)]
+1. pgcon 2020: The Way for Updating Materialized Views Rapidly [[pdf](https://www.pgcon.org/events/pgcon_2020/sessions/session/56/slides/47/pgcon2020_nagata_the_way_to_update_materialized_views_rapidly.pdf)]
+2. pgcon eu 2018: Implementing Incremental View Maintenance on PostgreSQL [[pdf](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2195/slides/144/Implementing%20Incremental%20View%20Maintenance%20on%20PostgreSQL%20.pdf)]
+3. 
 
 ## 🔥 States Management
 1. Delta Joins and Late Materialization: Understand how to optimize joins with indexes and late materialization [[blog](https://materialize.com/blog/delta-joins/)]
