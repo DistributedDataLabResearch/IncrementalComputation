@@ -35,12 +35,15 @@ Papers, Surveys, and Related Materials for Incremental Computation
   Its rapid adoption of the __Dataflow__/Beam programming model, which put it in the position of being the most semantically capable fully open source streaming system on   the planet at the time.
 
 1. The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing [[paper](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/43864.pdf)] [[zhihu](https://zhuanlan.zhihu.com/p/54739130)]
+> you may take a look at Liz's notes [[github](https://github.com/lapal0ma/Reading-List/blob/main/Incremental%20Computing/Dataflow%20Model.pdf)]
 2. Structured Streaming: A Declarative API for Real-Time Applications in Apache Spark [[paper](https://dl.acm.org/doi/pdf/10.1145/3183713.3190664)] [[jira](https://issues.apache.org/jira/browse/SPARK-20928)] [[doc](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)] [[zhihu](https://zhuanlan.zhihu.com/p/51883927)] [[blog](https://developer.aliyun.com/article/690913) compare with Spark Streaming]
 > Structured Streaming automatically incrementalizes queries on static datasets expressed through Spark’s SQL and DataFrame APIs [8], meaning that users typically only need to understand Spark’s batch APIs to write a streaming query. Event time concepts are especially easy to express and understand in this model.
+> you may access this paper with Liz's notes [[github](https://github.com/lapal0ma/Reading-List/tree/main/Incremental%20Computing)]
  
 
 ### Temporal Query Model
-1. Trill: A High-Performance Incremental Query Processor for Diverse Analytics (VLDB'14) [[paper](http://www.vldb.org/pvldb/vol8/p401-chandramouli.pdf)]
+1. Trill: A High-Performance Incremental Query Processor for Diverse Analytics (VLDB'14) [[paper](http://www.vldb.org/pvldb/vol8/p401-chandramouli.pdf)] 
+> you may access this paper with Liz's notes [[github](https://github.com/lapal0ma/Reading-List/blob/main/Incremental%20Computing/trill-vldb2015.pdf)]
 
 ## 🔥 OLVM (online view maintainance) 👉 (quick go-through)
 1. incremental recomputation of active relational expressions (TKDE'91) [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=91063)]
@@ -53,7 +56,7 @@ Papers, Surveys, and Related Materials for Incremental Computation
 2. pgcon eu 2018: Implementing Incremental View Maintenance on PostgreSQL [[pdf](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2195/slides/144/Implementing%20Incremental%20View%20Maintenance%20on%20PostgreSQL%20.pdf)]
 3. IVM discussion [[kick-off](https://www.postgresql.org/message-id/20181227215726.4d166b4874f8983a641123f5@sraoss.co.jp)] [[proposal in JP](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=191222&item_no=1&page_id=13&block_id=8)]
 4. IVM testing on TPC-H and TPC-DS [[from Russia](https://postgrespro.ru/list/thread-id/2419111)]
-5. Utilizing IDs to Accelerate Incremental View Maintenance (SIGMOD'15) [[paper](https://dl.acm.org/doi/10.1145/2723372.2750546)]
+5. Utilizing IDs to Accelerate Incremental View Maintenance (SIGMOD'15) [[paper](https://dl.acm.org/doi/10.1145/2723372.2750546)] 👉(Liz ✔️)
 6. Maintaining views incrementally (SIGMOD'93) [[paper](https://dl.acm.org/doi/10.1145/170035.170066)]
 
 
@@ -63,12 +66,21 @@ Papers, Surveys, and Related Materials for Incremental Computation
 > In-order reliable message delivery is not enough. Showing views over streams of data requires thinking through additional consistency semantics to deliver correct results.
 3. Databricks: Delta Live Table [[blog](https://blogs.perficient.com/2022/07/11/top-5-take-aways-from-databricks-data-ai-summit-2022/)][[youtube](https://www.youtube.com/watch?v=zo6K6g2jfqY)]
 > Announcing __Enzyme__, a new optimization layer designed specifically to speed up the process of doing ETL – Transforming data to prepare it for downstream analysis is a prerequisite for most other workloads on the Databricks platform. While SQL and Data frames make it relatively easy for users to express their transformations, the input data constantly changes. This requires re-computation of the tables produced by ETL. Enzyme is a a new optimization layer for ETL. Enzyme efficiently keeps up to date a materialization of the results of a given query stored in a Delta table. It uses a cost model to choose between various techniques, including techniques used in traditional materialized views, delta-to-delta streaming, and manual ETL patterns commonly used by data engineers.
-4. Shared Arrangements: practical inter-query sharing for streaming dataflows (VLDB' 20) [[paper](https://people.csail.mit.edu/malte/pub/drafts/2019-kpg.pdf)] 👉(Liz, Sherry)
-5. Noria: dynamic, partially-stateful data-flow for high-performance web applications (OSDI' 18) [[paper](https://www.usenix.org/conference/osdi18/presentation/gjengset)] [[github](https://github.com/mit-pdos/noria)] [[presentation](https://www.youtube.com/watch?v=kVv9Pik6QGY)] [[discussion](https://corecursive.com/030-rethinking-databases-with-jon-gjengset/)]👉 (Rui, Sherry)
+4. Shared Arrangements: practical inter-query sharing for streaming dataflows (VLDB' 20) [[paper](https://people.csail.mit.edu/malte/pub/drafts/2019-kpg.pdf)] 👉(Liz, Sherry ✔️)
+5. Noria: dynamic, partially-stateful data-flow for high-performance web applications (OSDI' 18) [[paper](https://www.usenix.org/conference/osdi18/presentation/gjengset)] [[github](https://github.com/mit-pdos/noria)] [[presentation](https://www.youtube.com/watch?v=kVv9Pik6QGY)] [[discussion](https://corecursive.com/030-rethinking-databases-with-jon-gjengset/)]👉 (Rui, Sherry ✔️)
 
-## 🔥🔥 Pipeline management and Serverless
+## 🔥🔥 Pipeline management
 1. Multiple-Query Optimization [[paper](http://daslab.seas.harvard.edu/reading-group/papers/mqo.pdf)] 👉 (Liz)
-2. Resource Allocation in Serverless Query Processing [[paper](https://arxiv.org/pdf/2208.09519.pdf)]
+2. Getting started with Apache Airflow [[blog](https://towardsdatascience.com/getting-started-with-apache-airflow-df1aa77d7b1b)] 👉 (Liz) 
+
+## 🔥🔥 Serverless and Resource Allocation
+### By ETH (AWS)
+1. Resource Allocation in Serverless Query Processing [[paper](https://arxiv.org/pdf/2208.09519.pdf)] 👉(Liz ✔️)
+> A advisor based on white-box model, where start-up time, exchange overhead, request cost, processing and network overhead are all evaluated. The problem is formed using multi-objective optimization (pareto-frontiers) where {price, time} are the goals to optimize.
+2. Lambada: Interactive Data Analytics on Cold Data using Serverless Cloud Infrastructure [[paper](https://arxiv.org/pdf/1912.00937.pdf)] (Liz)
+### By Microsoft (SCOPE)
+3. Optimal Resource Allocation for Serverless Queries [[paper](https://arxiv.org/pdf/2107.08594.pdf)] (Sherry)
+4. AutoToken: Predicting Peak Parallelism for Big Data Analytics at Microsoft [[paper](http://www.vldb.org/pvldb/vol13/p3326-sen.pdf)]
 
 ## Streaming SQL Query Optimizers
 1. A catalog of stream processing optimizations [[paper](https://dl.acm.org/doi/10.1145/2528412)]
