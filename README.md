@@ -55,6 +55,7 @@ Papers, Surveys, and Related Materials for Incremental Computation
 1. Incremental View Maintenance with Triple Lock Factorization Benefits (SIGMOD'18) [[paper](https://dl.acm.org/doi/10.1145/3183713.3183758)] [[github](https://github.com/fdbresearch/FIVM)] 👉(Liz ✔️)
 2. DBToaster: Higher-order Delta Processing for Dynamic, Frequently Fresh Views [[paper](http://vldb.org/pvldb/vol5/p968_yanifahmad_vldb2012.pdf)] [[github](https://github.com/dbtoaster/dbtoaster-backend)]
 3. DBToaster: a SQL compiler for high-performance delta processing in main-memory databases (VLDB'09) [[paper](https://dl.acm.org/doi/10.14778/1687553.1687592)]
+4. TreeToaster: Towards an IVM-Optimized Compiler (SIGMOD'21) [[paper](https://dl.acm.org/doi/pdf/10.1145/3448016.3459244)]
 
 ### PostgreSQL IVM (incremental view maintenance) [[wiki](https://wiki.postgresql.org/wiki/Incremental_View_Maintenance#Restrictions_on_view_definition)]
 1. pgcon 2020: The Way for Updating Materialized Views Rapidly [[pdf](https://www.pgcon.org/events/pgcon_2020/sessions/session/56/slides/47/pgcon2020_nagata_the_way_to_update_materialized_views_rapidly.pdf)]
