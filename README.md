@@ -3,6 +3,9 @@ Papers, Surveys, and Related Materials for Incremental Computation
 
 (Below is just a temporal classification. Please feel free to modify.)
 
+### reading list
+[Understanding dbt Incremental Strategies part 1/2](https://medium.com/indiciumtech/understanding-dbt-incremental-strategies-part-1-2-22bd97c7eeb5)
+
 ## Event Processing (stream processing)
 1. Recent Advancements in Event Processing [[Survey](https://dl.acm.org/doi/pdf/10.1145/3170432)]
 * > 6.4 Out-of-Order Event Processing
